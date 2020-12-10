@@ -1,6 +1,6 @@
 # stock-web-application
 
-## Part One  General Introduction
+## Part One.  General Introduction
 
 This is a Python project to create your own stock dashboard and have a prediction on tomorrows stock price.
 In this project I created two dashboard to interactively analyse and visualize specific stock data.
@@ -14,3 +14,10 @@ The second dashboard is about a prediction model of this stock. An Auto ARIMA mo
 Here is a quick gif to show the layout of the whole application.
 ![img](https://github.com/cathyzjc/stock-application/blob/main/image/layout.gif)
  
+ 
+## Part Two.   Real-time Data 
+
+[Baostock Python API](http://baostock.com/baostock/index.php/%E9%A6%96%E9%A1%B5) is used here to get the real-time securities data in this application.
+
+Baostock is a free and open source securities data platform (no registration required). It provides a large amount of accurate and complete securities historical market data, listed company financial data, etc. of Chinese stock market. 
+Users can obtain securities data information through python API, which meets the data needs of quantitative trading investors, quantitative finance enthusiasts, and econometrics practitioners.
