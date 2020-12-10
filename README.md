@@ -24,7 +24,7 @@ The [wireframe](https://github.com/cathyzjc/stock-application/blob/main/Wirefram
 Baostock is a free and open source securities data platform (no registration required). It provides a large amount of accurate and complete securities historical market data, listed company financial data, etc. of Chinese stock market. 
 Users can obtain securities data information through python API, which meets the data needs of quantitative trading investors, quantitative finance enthusiasts, and econometrics practitioners.
 
-Because we use an Python API here, the connection is not so stable all the time. So **please be patient and refresh your browser a few time when facing errors**. 
+Because we use an Python API here, the connection is not so stable all the time. So **please be patient and refresh your browser a few times when an error occurs.**
 
 ## Part Three.   Code Explanation
 
