@@ -13,6 +13,8 @@ The second dashboard is about a prediction model of this stock. An Auto ARIMA mo
 #### 3.  The Layout of This Web Application
 Here is a quick gif to show the layout of the whole application.
 ![img](https://github.com/cathyzjc/stock-application/blob/main/image/layout.gif)
+
+The [wireframe](https://github.com/cathyzjc/stock-application/blob/main/Wireframe%20of%20Stock%20Application%20.pdf) of this application is also included in Github. 
  
  
 ## Part Two.   Real-time Data 
