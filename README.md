@@ -35,3 +35,6 @@ Because we use an Python API here, the connection is not so stable all the time.
 3. [prediction.py](https://github.com/cathyzjc/stock-application/blob/main/prediction.py) : Define ARIMA related functions in this python file.
 
 4. [Test_controls.py](https://github.com/cathyzjc/stock-application/blob/main/Test_controls.py): This project is a test-driven project. 
+
+## Part Four. How To Use It?
+[![Watch the video](https://github.com/cathyzjc/stock-application/blob/main/image/Stock%20Predicting%20Application.png)](https://youtu.be/EaD8qFEvQPU)
