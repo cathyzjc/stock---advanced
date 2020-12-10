@@ -1,4 +1,4 @@
-# stock-web-application
+# Stock-Web-Application
 
 ## Part One.  General Introduction
 
