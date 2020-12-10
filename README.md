@@ -36,5 +36,19 @@ Because we use an Python API here, the connection is not so stable all the time.
 
 4. [Test_controls.py](https://github.com/cathyzjc/stock-application/blob/main/Test_controls.py): This project is a test-driven project. 
 
-## Part Four. How To Use It?
+
+## Part Four.    How To Use It?
+
+#### 1. Setup
+1. Clone this repo locally.
+2. Create a local python 3.8 environment and install all packages shown below.
+   > - **Dash:** dash, dash_core_components, dash_bootstrap_components, dash_html_components
+   > - **Time Series Data & Prediction Model:** datetime, plotly, pandas, numpy, sklearn, pmdarima, pytest
+   > - **Real-time Stock Data:** baostock
+3. Run python3 app.py
+
+#### 2. Video Tutorial
+
+Here is a short video to show how you can use this web application
+
 [![Watch the video](https://github.com/cathyzjc/stock-application/blob/main/image/Stock%20Predicting%20Application.png)](https://youtu.be/EaD8qFEvQPU)
