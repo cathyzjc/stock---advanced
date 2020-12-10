@@ -1,6 +1,7 @@
 import controls
 import pytest
 import pandas as pd
+import prediction
 
 def test_update_a_share_list():
     try:
@@ -75,6 +76,14 @@ def test_get_information():
     except ValueError as ex:
         print(ex)
     assert ['sh.600000','浦发银行','1999-11-10','','Stock','Listed']
+
+
+def test_predict_tomorrow():
+    try:
+        prediction.predict_tomorrow(df)
+    except ValueError as ex:
+        print(ex)
+    assert True
 
 
 df = pd.read_csv("data/daily_data.csv")
