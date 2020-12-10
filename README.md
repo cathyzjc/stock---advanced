@@ -14,7 +14,7 @@ The second dashboard is about a prediction model of this stock. An Auto ARIMA mo
 Here is a quick gif to show the layout of the whole application.
 ![img](https://github.com/cathyzjc/stock-application/blob/main/image/layout.gif)
 
-The [wireframe](https://github.com/cathyzjc/stock-application/blob/main/Wireframe%20of%20Stock%20Application%20.pdf) of this application is also included in Github. 
+The [wireframe](https://github.com/cathyzjc/stock-application/blob/main/Wireframe%20of%20Stock%20Application%20.pdf) and [a png format layout](https://github.com/cathyzjc/stock-application/blob/main/stock%20-%20layout.PNG) of this application is also included in Github. 
  
  
 ## Part Two.   Real-time Data 
@@ -23,3 +23,13 @@ The [wireframe](https://github.com/cathyzjc/stock-application/blob/main/Wirefram
 
 Baostock is a free and open source securities data platform (no registration required). It provides a large amount of accurate and complete securities historical market data, listed company financial data, etc. of Chinese stock market. 
 Users can obtain securities data information through python API, which meets the data needs of quantitative trading investors, quantitative finance enthusiasts, and econometrics practitioners.
+
+## Part Three.   Code Explanation
+
+1. [app.py](https://github.com/cathyzjc/stock-application/blob/main/app.py) : The main python file of this whole application. Contains layout and callbacks.
+
+2. [controls.py](https://github.com/cathyzjc/stock-application/blob/main/controls.py) : Define most of the functions used in app.py.
+
+3. [prediction.py](https://github.com/cathyzjc/stock-application/blob/main/prediction.py) : Define ARIMA related functions in this python file.
+
+4. [Test_controls.py](https://github.com/cathyzjc/stock-application/blob/main/Test_controls.py): This project is a test-driven project. 
