@@ -11,10 +11,10 @@
 ## Part One.  General Introduction
 
 This is a Python project to create your own stock dashboard and have a prediction on tomorrow's stock price. Stocks are all traded on the Shanghai Stock Exchange and the Shenzhen Stock Exchange in China. [More Information about stock inluded](https://en.wikipedia.org/wiki/CSI_300_Index)
-In this project I created two dashboards to interactively analyse and visualize specific stock data you pick.
+In this project, I created two dashboards to interactively analyze and visualize specific stock data you pick.
 
 #### 1. Stock Price Visualization
-The first dashboard is about stock price. In this Dashboard, three tabs are shown to present 1-day candlestick plot, 1-week candlestick plot and 1-month candlestick plot. **Moving average** lines are also provided here. You can choose moving average of 5, 10, 20 or 30. Mulitple lines can be applied at the same time.
+The first dashboard is about the stock price. In this Dashboard, three tabs are shown to present a 1-day candlestick plot, 1-week candlestick plot and 1-month candlestick plot. **Moving average** lines are also provided here. You can choose a moving average of 5, 10, 20 or 30. Multiple lines can be applied at the same time.
 
 #### 2. Stock Prediction
 The second dashboard is about a prediction model of this stock. An Auto ARIMA model from **pmdarima package** is used here to have a real-time prediction of tomorrow's stock price. 
@@ -33,10 +33,10 @@ The [wireframe](https://github.com/cathyzjc/stock-application/blob/main/Wirefram
 
 [Baostock Python API](http://baostock.com/baostock/index.php/%E9%A6%96%E9%A1%B5) is used here to get the real-time securities data in this application.
 
-Baostock is a free and open source securities data platform (no registration required). It provides a large amount of accurate and complete securities historical market data, listed company financial data, etc. of Chinese stock market. 
+Baostock is a free and open-source securities data platform (no registration required). It provides a large amount of accurate and complete securities historical market data, listed company financial data, etc. of the Chinese stock market. 
 Users can obtain securities data information through python API, which meets the data needs of quantitative trading investors, quantitative finance enthusiasts, and econometrics practitioners.
 
-Because we use an Python API here, the connection is not so stable all the time. So **please be patient and refresh your browser a few times when an error occurs.**
+Because we use a Python API here, the connection is not so stable all the time. So **please be patient and refresh your browser a few times when an error occurs.**
 
 <br>
 
@@ -62,7 +62,8 @@ Because we use an Python API here, the connection is not so stable all the time.
 1. Clone this repo locally.
 2. Create a local python 3.8 environment and install all packages shown below.
    > - **Dash:** dash, dash_core_components, dash_bootstrap_components, dash_html_components
-   > - **Time Series Data & Prediction Model:** datetime, plotly, pandas, numpy, sklearn, pmdarima, pytest
+   > - **Time Series Data & Prediction Model:** datetime, plotly, pandas, numpy, sklearn, pmdarima
+   > - **Test-Driven:** pytest
    > - **Real-time Stock Data:** baostock
 3. Run python3 app.py
 
