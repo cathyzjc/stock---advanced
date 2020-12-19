@@ -65,7 +65,7 @@ Because we use a Python API here, the connection is not so stable all the time. 
    > - **Time Series Data & Prediction Model:** datetime, plotly, pandas, numpy, sklearn, pmdarima
    > - **Test-Driven:** pytest
    > - **Real-time Stock Data:** baostock
-3. Run python3 app.py
+3. Run python app.py
 
 #### 2. Video Tutorial
 
